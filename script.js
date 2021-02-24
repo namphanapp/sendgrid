@@ -1,4 +1,6 @@
-
+/* Author by Phan Chau Nam
+   Created by Feb 2021
+*/
 $(function() {
     var e = function(e) {
         for (var t = "", n = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789", s = n.length, i = 0; i < e; i++) t += n.charAt(Math.floor(Math.random() * s));
